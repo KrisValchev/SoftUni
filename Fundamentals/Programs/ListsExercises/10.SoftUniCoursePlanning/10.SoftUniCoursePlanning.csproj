@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_01.Messaging</RootNamespace>
+    <RootNamespace>_10.SoftUniCoursePlanning</RootNamespace>
   </PropertyGroup>
 
 </Project>
