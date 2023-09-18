@@ -8,9 +8,6 @@ namespace _05.SquareWithMaximumSum
         static void Main(string[] args)
         {
             int[] rowsAndCols = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
-            int[] widthAndHeight = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
-            int height = widthAndHeight[1];
-            int width = widthAndHeight[0];
             int rows = rowsAndCols[0];
             int cols = rowsAndCols[1];
             int[,] matrix = new int[rows, cols];
@@ -25,9 +22,9 @@ namespace _05.SquareWithMaximumSum
             int maxSum = 0;
             int indexRowMaxSum = 0;
             int indexColMaxSum = 0;
-            for (int row = 0; row < rows-width; row++)
+            for (int row = 0; row < rows-1; row++)
             {
-                for (int col = 0; col < cols-height; col++)
+                for (int col = 0; col < cols-1; col++)
                 {
                     if (matrix[row, col] + matrix[row + 1, col] + matrix[row, col + 1] + matrix[row + 1, col + 1] > maxSum)
                     {
