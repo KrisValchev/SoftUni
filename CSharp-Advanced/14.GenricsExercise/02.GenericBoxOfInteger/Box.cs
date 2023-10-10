@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _02.GenericBoxOfInteger
+{
+    public class Box<T>
+    {
+        private T vAlue;
+        public T Value
+        {
+            get
+            {
+                return vAlue;
+            }
+            set
+            {
+                vAlue = value;
+            }
+        }
+        public Box(T vAlue)
+        {
+            Value = vAlue;
+        }
+        public override string ToString()
+        {
+            return $"{typeof(T)}: {Value}";
+        }
+    }
+}
