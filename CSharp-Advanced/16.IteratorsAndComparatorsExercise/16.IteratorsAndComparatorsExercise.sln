@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ListyIterator", "01.ListyIterator\01.ListyIterator.csproj", "{56261016-7987-4D51-B8AB-5DFE6F185231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Collection", "02.Collection\02.Collection.csproj", "{F6449F73-41C7-42DA-B66D-B3A3CCAAF5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Stack", "03.Stack\03.Stack.csproj", "{282917C2-7A27-4DBA-8D1C-BF3D8EC03981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Froggy", "04.Froggy\04.Froggy.csproj", "{CB6CF99A-2B63-4766-8797-8FBE856AFC7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ComparingObjects", "05.ComparingObjects\05.ComparingObjects.csproj", "{97EB3F77-6359-40A6-98CB-BCA6F0315DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.EqualityLogic", "06.EqualityLogic\06.EqualityLogic.csproj", "{0F1B94AE-D4C4-42EA-BFDB-0C15E42F7E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.CustomComparator", "07.CustomComparator\07.CustomComparator.csproj", "{CB769C6A-0283-4237-B15C-EB5A1483E1C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56261016-7987-4D51-B8AB-5DFE6F185231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56261016-7987-4D51-B8AB-5DFE6F185231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56261016-7987-4D51-B8AB-5DFE6F185231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56261016-7987-4D51-B8AB-5DFE6F185231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6449F73-41C7-42DA-B66D-B3A3CCAAF5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6449F73-41C7-42DA-B66D-B3A3CCAAF5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6449F73-41C7-42DA-B66D-B3A3CCAAF5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6449F73-41C7-42DA-B66D-B3A3CCAAF5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282917C2-7A27-4DBA-8D1C-BF3D8EC03981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282917C2-7A27-4DBA-8D1C-BF3D8EC03981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282917C2-7A27-4DBA-8D1C-BF3D8EC03981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282917C2-7A27-4DBA-8D1C-BF3D8EC03981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6CF99A-2B63-4766-8797-8FBE856AFC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6CF99A-2B63-4766-8797-8FBE856AFC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6CF99A-2B63-4766-8797-8FBE856AFC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6CF99A-2B63-4766-8797-8FBE856AFC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EB3F77-6359-40A6-98CB-BCA6F0315DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EB3F77-6359-40A6-98CB-BCA6F0315DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EB3F77-6359-40A6-98CB-BCA6F0315DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EB3F77-6359-40A6-98CB-BCA6F0315DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1B94AE-D4C4-42EA-BFDB-0C15E42F7E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1B94AE-D4C4-42EA-BFDB-0C15E42F7E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1B94AE-D4C4-42EA-BFDB-0C15E42F7E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1B94AE-D4C4-42EA-BFDB-0C15E42F7E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB769C6A-0283-4237-B15C-EB5A1483E1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB769C6A-0283-4237-B15C-EB5A1483E1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB769C6A-0283-4237-B15C-EB5A1483E1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB769C6A-0283-4237-B15C-EB5A1483E1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {764434AC-2534-4956-AAFE-62F436FAF473}
+	EndGlobalSection
+EndGlobal
