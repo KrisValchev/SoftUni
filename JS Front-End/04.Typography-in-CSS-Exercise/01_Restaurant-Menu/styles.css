@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-family: "Sentinel A", "Sentinel B", Georgia, 'Times New Roman', Times, serif;
+    color: #747474;
+    line-height: 1.15em;
+    font-weight: 400;
+}
+span{
+    font-family: "Graphik Semibold Web", "Open Sans", "Helvetica Neue", Helvetica, Ari, sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 16px;
+    height: 1.46em;
+    color:#5c5a5a ;
+}
+p{
+font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Ari,sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.46em;
+color:#5c5a5a ;
+}
