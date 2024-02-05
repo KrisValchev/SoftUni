@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap:1em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    border-radius: 0.5em;
+    justify-content: space-between;
+}
+
+.card h3,p{
+    padding:1em 1em 0 1em;
+}
+.card footer{
+border-top: 1px solid gray;
+    padding: 1em;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}

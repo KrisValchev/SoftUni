@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:  Helvetica, sans-serif;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display:  flex;
+justify-content: space-between;
+border-bottom: 2px solid black;
+}
+header p{
+    font-size:2em;
+    font-weight: bold;
+}
+nav{
+    align-self: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    color:rgb(0, 153, 0);
+    text-decoration: none;
+    padding: 0.5em;
+}

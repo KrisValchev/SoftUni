@@ -1,0 +1,38 @@
+
+body{
+    font:16px/1.5 Helvetica,sans-serif;
+    padding:4em;
+}
+header{
+    border-bottom: 2px solid #ccc;
+}
+header .site-title a{
+    color:black;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+}
+header .site-title,
+header nav{
+    display: inline-block;
+}
+nav ul{
+    padding: 0 0 0 4em;
+    margin:0;
+    list-style-type: none;
+}
+nav ul li{
+display: inline;
+padding: 1em;
+cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color:#B0D0B6; 
+    padding: 1em;
+}
+nav ul a:hover{
+background-color: darkgreen;
+color: white;
+}
+
