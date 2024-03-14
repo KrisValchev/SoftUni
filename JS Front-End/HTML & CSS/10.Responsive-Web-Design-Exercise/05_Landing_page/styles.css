@@ -1,0 +1,109 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+body{
+    margin:0 auto;
+    width: 60vw;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif; 
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 0.3em 0;
+    line-height: 1.2;
+ }
+ 
+ 
+ h1 { font-size: 2.8em; } /* 14 * 2.8 = 39px */
+ h2 { font-size: 2.2em; } /* 14 * 2.2 = 31px */
+ h3 { font-size: 1.8em; } /* 14 * 1.8 = 25px */
+ h4 { font-size: 1.6em; } /* 14 * 1.6 = 22px */
+ h5 { font-size: 1.2em; } /* 14 * 2.2 = 17px */
+ h6 { font-size: 1.0em; } /* 14 * 1.0 = 14px */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.title p{
+    font-size: 0.8em;
+    
+}
+.title h1{
+    color: purple;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:1em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+section{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+width: 80%;
+padding:3em;
+}
+section:first-of-type{
+    height:30vh;
+    padding: 2em;
+    flex-direction: row;
+    
+}
+article:first-child{
+display: flex;
+flex-direction: column;
+gap: 0.3em;
+}
+button{
+    align-self: flex-start;
+}
+section:nth-child(even) article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 5em;
+}
+section:nth-child(even) article div{
+    width: 20%;
+}
+
+
